@@ -1,4 +1,6 @@
 export COMMIT_MESSAGE=`date`
+# https://stackoverflow.com/questions/6770044/windows-scheduled-task-to-git-push-to-github
+export HOME="C:/Users/guzy0"
 export NVIM_PATH="C:/msys64/Neovim/share/nvim"
 export WT_PATH="C:/Users/guzy0/AppData/Local/Packages/Microsoft.WindowsTerminal_8wekyb3d8bbwe/LocalState"
 
