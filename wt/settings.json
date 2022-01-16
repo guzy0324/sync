@@ -98,6 +98,7 @@
             },
             {
                 "commandline": "C:/Program Files/PowerShell/7/pwsh.exe -nologo -ExecutionPolicy ByPass -NoExit -Command \"& 'C:\\Users\\guzy0\\anaconda3\\shell\\condabin\\conda-hook.ps1' ; conda activate 'C:\\Users\\guzy0\\anaconda3' \"",
+                "hidden": true,
                 "icon": "%USERPROFILE%\\anaconda3\\Menu\\Iconleak-Atrous-PSConsole.ico",
                 "name": "Conda Prompt"
             }
