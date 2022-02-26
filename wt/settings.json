@@ -72,7 +72,7 @@
         "list": 
         [
             {
-                "commandline": "zsh.exe",
+                "commandline": "cmd.exe /c set MSYSTEM=MINGW64 && set MSYS=winsymlinks:nativestrict&& set MSYS2_PATH_TYPE=inherit&& set CHERE_INVOKING=enabled_from_arguments&& zsh.exe --login",
                 "guid": "{ff3fac54-44dd-4ef9-8663-69b92b535135}",
                 "icon": "C:\\msys64\\msys2.ico",
                 "name": "zsh"
