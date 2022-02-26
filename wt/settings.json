@@ -72,7 +72,7 @@
         "list": 
         [
             {
-                "commandline": "cmd.exe /c zsh.exe",
+                "commandline": "pwsh -nologo -ExecutionPolicy ByPass -NoExit -Command \"& 'zsh' \"",
                 "guid": "{ff3fac54-44dd-4ef9-8663-69b92b535135}",
                 "icon": "C:\\msys64\\msys2.ico",
                 "name": "zsh"
