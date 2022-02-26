@@ -108,6 +108,12 @@
                 "hidden": true,
                 "icon": "ms-appx:///ProfileIcons/{0caa0dad-35be-5f56-a8ff-afceeeaa6101}.png",
                 "name": "Bash"
+            },
+            {
+                "commandline": "zsh.exe",
+                "guid": "{ff3fac54-44dd-4ef9-8663-69b92b535135}",
+                "icon": "C:\\msys64\\msys2.ico",
+                "name": "zsh"
             }
         ]
     },
