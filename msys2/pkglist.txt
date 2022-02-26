@@ -41,14 +41,12 @@ msys2-runtime
 ncurses
 pacman
 pacman-mirrors
-pactoys-git
 pax
 pkgfile
 rebase
 sed
 tftp-hpa
 time
-ttyrec
 tzcode
 util-linux
 which
