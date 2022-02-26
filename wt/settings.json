@@ -72,9 +72,15 @@
         "list": 
         [
             {
+                "commandline": "zsh.exe",
+                "guid": "{ff3fac54-44dd-4ef9-8663-69b92b535135}",
+                "icon": "C:\\msys64\\msys2.ico",
+                "name": "zsh"
+            }
+            {
                 "commandline": "C:/Program Files/PowerShell/7/pwsh.exe -nologo",
                 "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
-                "hidden": false,
+                "hidden": true,
                 "name": "PowerShell",
                 "source": "Windows.Terminal.PowershellCore"
             },
@@ -109,12 +115,6 @@
                 "icon": "ms-appx:///ProfileIcons/{0caa0dad-35be-5f56-a8ff-afceeeaa6101}.png",
                 "name": "Bash"
             },
-            {
-                "commandline": "zsh.exe",
-                "guid": "{ff3fac54-44dd-4ef9-8663-69b92b535135}",
-                "icon": "C:\\msys64\\msys2.ico",
-                "name": "zsh"
-            }
         ]
     },
     "schemes": 
