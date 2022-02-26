@@ -51,4 +51,3 @@ time
 tzcode
 util-linux
 which
-zsh

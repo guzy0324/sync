@@ -46,7 +46,7 @@
     ],
     "copyFormatting": "none",
     "copyOnSelect": false,
-    "defaultProfile": "{ff3fac54-44dd-4ef9-8663-69b92b535135}",
+    "defaultProfile": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
     "initialCols": 100,
     "initialRows": 25,
     "profiles": 
@@ -71,12 +71,6 @@
         },
         "list": 
         [
-            {
-                "commandline": "pwsh -nologo -ExecutionPolicy ByPass -NoExit -Command \"& 'zsh' \"",
-                "guid": "{ff3fac54-44dd-4ef9-8663-69b92b535135}",
-                "icon": "C:\\msys64\\msys2.ico",
-                "name": "zsh"
-            },
             {
                 "commandline": "C:/Program Files/PowerShell/7/pwsh.exe -nologo",
                 "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
