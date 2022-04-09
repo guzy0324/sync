@@ -1,7 +1,16 @@
 {
+    "$help": "https://aka.ms/terminal-documentation",
     "$schema": "https://aka.ms/terminal-profiles-schema",
     "actions": 
     [
+        {
+            "command": 
+            {
+                "action": "splitPane",
+                "split": "down"
+            },
+            "keys": "ctrl+shift+o"
+        },
         {
             "command": "find",
             "keys": "ctrl+shift+f"
@@ -31,17 +40,9 @@
             "command": 
             {
                 "action": "splitPane",
-                "split": "vertical"
+                "split": "right"
             },
             "keys": "ctrl+shift+e"
-        },
-        {
-            "command": 
-            {
-                "action": "splitPane",
-                "split": "horizontal"
-            },
-            "keys": "ctrl+shift+o"
         }
     ],
     "copyFormatting": "none",
@@ -79,13 +80,11 @@
                 "source": "Windows.Terminal.PowershellCore"
             },
             {
-                "commandline": "powershell.exe",
                 "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
                 "hidden": true,
                 "name": "Windows PowerShell"
             },
             {
-                "commandline": "cmd.exe",
                 "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
                 "hidden": true,
                 "name": "\u547d\u4ee4\u63d0\u793a\u7b26"
@@ -98,9 +97,22 @@
             },
             {
                 "commandline": "C:/Program Files/PowerShell/7/pwsh.exe -nologo -ExecutionPolicy ByPass -NoExit -Command \"& 'C:\\Users\\guzy0\\anaconda3\\shell\\condabin\\conda-hook.ps1' ; conda activate 'C:\\Users\\guzy0\\anaconda3' \"",
+                "guid": "{600f330e-e91b-53b3-9396-f846d51519c7}",
                 "hidden": true,
                 "icon": "%USERPROFILE%\\anaconda3\\Menu\\Iconleak-Atrous-PSConsole.ico",
                 "name": "Conda Prompt"
+            },
+            {
+                "guid": "{81c917d0-f8c0-564b-85a6-0a8b8a104bd6}",
+                "hidden": false,
+                "name": "Developer Command Prompt for VS 2019",
+                "source": "Windows.Terminal.VisualStudio"
+            },
+            {
+                "guid": "{2ed8a775-94b6-507f-9684-57d4ca542065}",
+                "hidden": false,
+                "name": "Developer PowerShell for VS 2019",
+                "source": "Windows.Terminal.VisualStudio"
             }
         ]
     },
