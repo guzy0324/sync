@@ -16,15 +16,6 @@
             "keys": "ctrl+shift+f"
         },
         {
-            "command": 
-            {
-                "action": "splitPane",
-                "split": "auto",
-                "splitMode": "duplicate"
-            },
-            "keys": "alt+shift+d"
-        },
-        {
             "command": "unbound",
             "keys": "alt+shift+plus"
         },
@@ -35,6 +26,15 @@
         {
             "command": "unbound",
             "keys": "ctrl+shift+q"
+        },
+        {
+            "command": 
+            {
+                "action": "splitPane",
+                "split": "auto",
+                "splitMode": "duplicate"
+            },
+            "keys": "alt+shift+d"
         },
         {
             "command": 
@@ -54,7 +54,7 @@
     {
         "defaults": 
         {
-            "backgroundImage": "F:/\u8c37\u6b63\u9633/\u56fe/terminal/background0.png",
+            "backgroundImage": "C:/Users/guzy0/Pictures/Camera Roll/terminal/background0.png",
             "backgroundImageAlignment": "bottomRight",
             "backgroundImageOpacity": 0.32400000000000001,
             "backgroundImageStretchMode": "none",
@@ -101,18 +101,6 @@
                 "hidden": true,
                 "icon": "%USERPROFILE%\\anaconda3\\Menu\\Iconleak-Atrous-PSConsole.ico",
                 "name": "Conda Prompt"
-            },
-            {
-                "guid": "{81c917d0-f8c0-564b-85a6-0a8b8a104bd6}",
-                "hidden": false,
-                "name": "Developer Command Prompt for VS 2019",
-                "source": "Windows.Terminal.VisualStudio"
-            },
-            {
-                "guid": "{2ed8a775-94b6-507f-9684-57d4ca542065}",
-                "hidden": false,
-                "name": "Developer PowerShell for VS 2019",
-                "source": "Windows.Terminal.VisualStudio"
             }
         ]
     },
