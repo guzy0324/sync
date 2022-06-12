@@ -18,9 +18,7 @@ Import-Module posh-git
 Import-Module PSReadLine
 
 # 设置 PowerShell 主题
-# Set-PoshPrompt ys
-# Set-PoshPrompt paradox
-oh-my-posh init pwsh --config ~/AppData/Local/Programs/oh-my-posh/themes/unicorn.omp.json | Invoke-Expression
+oh-my-posh init pwsh --config ~/Desktop/代码/guzy-term.omp.json/guzy-term.omp.json | Invoke-Expression
 #------------------------------- Import Modules END   -------------------------------
 
 
