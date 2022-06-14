@@ -18,7 +18,7 @@ Import-Module posh-git
 Import-Module PSReadLine
 
 # 设置 PowerShell 主题
-oh-my-posh init pwsh --config C:/Users/guzy0/Desktop/代码/guzy-term.omp.json/guzy-term.omp.json | Invoke-Expression
+oh-my-posh init pwsh --config C:/Users/guzy0/Desktop/codes/guzy-term.omp.json/guzy-term.omp.json | Invoke-Expression
 #------------------------------- Import Modules END   -------------------------------
 
 
