@@ -4,6 +4,15 @@
     "actions": 
     [
         {
+            "command": 
+            {
+                "action": "resizePane",
+                "direction": "down"
+            },
+            "id": "User.resizePane.F747588A",
+            "keys": "ctrl+shift+down"
+        },
+        {
             "command": "find",
             "id": "User.find",
             "keys": "ctrl+shift+f"
@@ -16,15 +25,6 @@
             },
             "id": "User.resizePane.2A0DA8E0",
             "keys": "ctrl+shift+left"
-        },
-        {
-            "command": 
-            {
-                "action": "resizePane",
-                "direction": "down"
-            },
-            "id": "User.resizePane.F747588A",
-            "keys": "ctrl+shift+down"
         },
         {
             "command": "unbound",
@@ -51,20 +51,20 @@
         {
             "command": 
             {
-                "action": "resizePane",
-                "direction": "right"
-            },
-            "id": "User.resizePane.87C324ED",
-            "keys": "ctrl+shift+right"
-        },
-        {
-            "command": 
-            {
                 "action": "splitPane",
                 "split": "down"
             },
             "id": "User.splitPane.D5151347",
             "keys": "ctrl+shift+o"
+        },
+        {
+            "command": 
+            {
+                "action": "resizePane",
+                "direction": "right"
+            },
+            "id": "User.resizePane.87C324ED",
+            "keys": "ctrl+shift+right"
         },
         {
             "command": 
@@ -147,6 +147,12 @@
                 "hidden": true,
                 "icon": "%USERPROFILE%\\anaconda3\\Menu\\Iconleak-Atrous-PSConsole.ico",
                 "name": "Conda Prompt"
+            },
+            {
+                "guid": "{2ece5bfe-50ed-5f3a-ab87-5cd4baafed2b}",
+                "hidden": false,
+                "name": "Git Bash",
+                "source": "Git"
             }
         ]
     },
