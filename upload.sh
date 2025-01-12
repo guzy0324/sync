@@ -14,7 +14,7 @@ cp "${KEYBOARD_CONFIG_PATH}" ./keyboard
 
 git config --global user.name "Taco"
 git config --global user.email "1141374791@qq.com"
-git pull --ff-only
 git add .
 git commit -m "${COMMIT_MESSAGE}"
+git pull --no-edit
 git push
