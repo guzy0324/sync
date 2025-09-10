@@ -166,18 +166,6 @@
                 "hidden": false,
                 "name": "Git Bash",
                 "source": "Git"
-            },
-            {
-                "commandline": "%WINDIR%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe -ExecutionPolicy ByPass -NoExit -Command \"& 'C:\\Users\\guzy0\\anaconda3_temp\\shell\\condabin\\conda-hook.ps1' ; conda activate 'C:\\Users\\guzy0\\anaconda3_temp' \"",
-                "name": "Anaconda PowerShell Prompt (anaconda3_temp)",
-                "icon": "C:\\Users\\guzy0\\anaconda3_temp\\Menu\\anaconda_powershell_prompt.ico",
-                "startingDirectory": "C:\\Users\\guzy0"
-            },
-            {
-                "commandline": "%WINDIR%\\System32\\cmd.exe \"/K\" C:\\Users\\guzy0\\anaconda3_temp\\Scripts\\activate.bat C:\\Users\\guzy0\\anaconda3_temp",
-                "name": "Anaconda Prompt (anaconda3_temp)",
-                "icon": "C:\\Users\\guzy0\\anaconda3_temp\\Menu\\anaconda_prompt.ico",
-                "startingDirectory": "C:\\Users\\guzy0"
             }
         ]
     },
